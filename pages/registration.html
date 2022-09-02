@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Реєстрація</title>
+</head>
+
+<body>
+  <h1>Реєстрація</h1>
+
+  <div>
+    <a href="../index.html">Головна</a>
+    <a href="articles.html">Статті</a>
+    <a href="catalog.html">Каталог</a>
+    <a href="contacts.html">Контакти</a>
+    <a href="gallery.html">Галерея</a>
+    <a href="page-nav.html">Навігація</a>
+  </div>
+
+  <form action="https://tests.fomenko.top/echo/index.php" method="get">
+    <fieldset>
+      <legend>Обов`язкова інформація</legend>
+      <div>
+        <label for="pib">Прізвище, Ім`я</label>
+        <input name="name" id="pib" type="text" placeholder="Прізвище, Ім`я">
+      </div>
+      <div>
+        <label for="photo">Додайте фотографію</label>
+        <input name="photo" id="photo" type="file">
+      </div>
+      <div>
+        <label for="email">Адреса електронної пошти</label>
+        <input name="email" id="email" type="email" placeholder="Адреса електронної пошти">
+      </div>
+      <div>
+        <label for="pass">Пароль</label>
+        <input name="password" id="pass" type="password" placeholder="Пароль">
+      </div>
+      <div>
+        <label for="site">Адреса сайту</label>
+        <input id="site" type="text" value="https://mysite.name">
+      </div>
+      <div>
+        <div>
+          <label for="male">Чоловік</label>
+          <input id="male" name="male" type="radio">
+        </div>
+        <div>
+          <label for="female">Жінка</label>
+          <input id="female" name="female" type="radio">
+        </div>
+      </div>
+      <div>
+        <label for="date">Оберіть дату народження</label>
+        <input id="date" name="date" type="date">
+      </div>
+      <div>
+        <p>Оберіть улюблену кухню</p>
+        <div>
+          <label for="ukr">Українська</label>
+          <input id="ukr" name="ukr" type="checkbox">
+        </div>
+        <div>
+          <label for="ue">Європейська</label>
+          <input id="ue" name="ue" type="checkbox">
+        </div>
+        <div>
+          <label for="us">Амереканська</label>
+          <input id="us" name="us" type="checkbox">
+        </div>
+      </div>
+    </fieldset>
+    <fieldset>
+      <legend>Додаткова інформація</legend>
+      <div>
+        <label for="about">Напишіть про себе</label>
+        <textarea id="about" name="about" placeholder="Напишіть про себе" cols="30" rows="10"></textarea>
+      </div>
+    </fieldset>
+    <fieldset>
+      <legend>Кнопки управління формою</legend>
+      <div>
+        <input type="submit" value="Зареєструватись">
+        <input type="reset" value="Очистити форму">
+      </div>
+    </fieldset>
+  </form>
+
+  <footer>
+    &copy; Ivan Chipchyk
+  </footer>
+</body>
+
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Контакти</title>
+</head>
+
+<body>
+  <h1>Контакти</h1>
+
+  <div>
+    <a href="../index.html">Головна</a>
+    <a href="articles.html">Статті</a>
+    <a href="catalog.html">Каталог</a>
+    <a href="gallery.html">Галерея</a>
+    <a href="page-nav.html">Навігація</a>
+    <a href="registration.html">Реєстрація</a>
+  </div>
+
+  <h2>Адреса:</h2>
+  <p>м. Лондон, вул. Бейкерстритт, буд 221б</p>
+  <iframe id="mape" title="mape" width="500" height="500"
+    src="https://www.openstreetmap.org/export/embed.html?bbox=-0.004017949104309083%2C51.47612752641776%2C0.00030577182769775396%2C51.478569861898606&layer=mapnik">
+  </iframe>
+  <form action="https://tests.fomenko.top/echo/index.php" method="get">
+    <fieldset>
+      <legend>Зворотній зв`язок</legend>
+      <div>
+        <label for="name">Ім`я</label>
+        <input id="name" name="name" type="text" placeholder="Ввудіть ім`я">
+      </div>
+      <div>
+        <label for="tel">Телефон</label>
+        <input id="tel" name="tel" type="tel" placeholder="Номер телефону">
+      </div>
+      <div>
+        <label for="email">Адреса електронної пошти</label>
+        <input id="email" name="email" type="email" placeholder="Ввудіть email">
+      </div>
+      <div>
+        <label for="question">Задати питання</label>
+        <textarea id="question" name="question" placeholder="Задати питання" cols="30" rows="10"></textarea>
+      </div>
+      <div>
+        <input name="submit" type="submit" value="Відправити">
+        <input name="reset" type="reset" value="Очистити форму">
+      </div>
+    </fieldset>
+  </form>
+
+  <footer>
+    &copy; Ivan Chipchyk
+  </footer>
+</body>
+
+</html>
